@@ -2,6 +2,21 @@
 font-family: 'Nunito Sans', sans-serif; */
 body{
     color:#191919;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+button {
+    color:#fff;
+    background:#10c9c3;
+    border:none;
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
 }
 
 .header{
