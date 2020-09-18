@@ -17,6 +17,14 @@ h2{
     font-weight:bold;
 }
 
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1rem;
+    font-weight:bold;
+}
+
+
+
 button {
     color:#fff;
     background:#10c9c3;
@@ -46,4 +54,24 @@ a.nav-link.active{
 
 a.nav-link:hover{
     color:#10c9c3;
+}
+
+.progress, .progress-bar{
+    height:3px;
+}
+
+
+.progress-bar{
+    background: #10c9c3 ;
+}
+
+
+
+.bgblue{
+    background: #10c9c3 ;
+    color:#fff;
+}
+
+.bluetxt{
+    font-size:13px;
 }
