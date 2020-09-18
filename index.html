@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <section class="header">
+    <section class="header" id="home">
         <div class="container">
-            <nav class="navbar navbar-expand-sm ">
+            <nav class="navbar navbar-expand-sm fixed-top">
                 <!-- Brand/logo -->
                 <a class="navbar-brand" href="#">
                     <img src="/img/logo.png" alt="logo">
@@ -23,10 +24,10 @@
                 <!-- Links -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase active" href="#">Home</a>
+                        <a class="nav-link text-uppercase active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#">About</a>
+                        <a class="nav-link text-uppercase" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-uppercase" href="#">Work</a>
@@ -46,27 +47,32 @@
                 </ul>
             </nav>
         </div>
-        <div class="container d-flex align-items-center bd-highlight mb-3 h-100 ">
+        <div class="container d-flex align-items-center mb-3 h-100 ">
             <div class="row justify-content-end">
                 <div class="col-12 col-xl-5">
                     <h1 class="mb-4">We Design and Develop</h1>
                     <p class="mb-4">We are a new design studio based in USA. We have over
                         20 years of combined experience, and know a thing or two
                         about designing websites and mobile apps.</p>
-                        <button class="text-uppercase p-3 pl-5 pr-5">Contact us</button>
+                    <button class="text-uppercase p-3 pl-5 pr-5">Contact us</button>
                 </div>
             </div>
         </div>
     </section>
-    <div class="d-flex justify-content-end bd-highlight mb-3">
-        <h1>We Design and Develop</h1>
-        <p>We are a new design studio based in USA. We have over
-            20 years of combined experience, and know a thing or two
-            about designing websites and mobile apps.</p>
+    <section id="about">
+        <div class="container d-flex" style="min-height:420px;">
+            <div class="row align-items-center w-100 justify-content-center">
+                <div class="col-12 col-xl-7 text-center">
+                    <h2 class="mb-4">About us</h2>
+                    <p class="mb-4">Divide have don't man wherein air fourth. Own itself make have night won't
+                        make.<br />
+                        A you under Seed appear which good give. Own give air without fowl moveth dry first heaven
+                        fruit, dominion she'd won't very all.
+                    </p>
+                    <img src="/img/signature.png" alt="signature" title="signature" />
 
-
-    </div>
-    </div>
+                </div>
+    </section>
 </body>
 
 </html>
