@@ -1,0 +1,11 @@
+Projet - Intégration d'une maquette avec Bootstrap
+
+Objectifs : 
+
+De manière individuelle, reproduire à l'identique la maquette fournie avec HTML et CSS en utilisant le framework Bootstrap.
+
+La maquette se trouve dans les dossiers partagés : / PROJETS / PROJET 01 - INTEGRATION AVEC BOOTSTRAP
+
+Vous êtes libre de choisir les images de votre choix. Attention celles-ci doivent être libre de droit
+
+Durée : 4 jours

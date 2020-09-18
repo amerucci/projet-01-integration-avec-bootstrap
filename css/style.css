@@ -1,0 +1,8 @@
+.header{
+    height:100vh;
+    max-height : 670px;
+    background: url(../img/squirrels-5550173_1920.jpg);
+    background:lightgrey;
+    background-attachment: fixed;
+    background-size: cover;
+}
