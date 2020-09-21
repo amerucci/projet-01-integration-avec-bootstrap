@@ -1,77 +1,104 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Nunito Sans', sans-serif; */
-body{
-    color:#191919;
+body {
+    color: #191919;
     font-family: 'Nunito Sans', sans-serif;
 }
 
-h1{
+h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size:2rem;
-    font-weight:bold;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-h2{
+h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size:1.5rem;
-    font-weight:bold;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-h3{
+h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size:1rem;
-    font-weight:bold;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 
 
 button {
-    color:#fff;
-    background:#10c9c3;
-    border:none;
+    color: #fff;
+    background: #10c9c3;
+    border: none;
     font-family: 'Montserrat', sans-serif;
-    font-size:12px;
+    font-size: 12px;
 }
 
-.header{
-    height:100vh;
-    max-height : 670px;
+.header {
+    height: 100vh;
+    max-height: 670px;
     background: url(../img/squirrels-5550173_1920.jpg);
-    background:lightgrey;
+    background: lightgrey;
     background-attachment: fixed;
     background-size: cover;
 }
 
-a.nav-link{
+a.nav-link {
     font-family: 'Montserrat', sans-serif;
-    font-size:12px;
-    color:#191919;
+    font-size: 12px;
+    color: #191919;
 }
 
-a.nav-link.active{
-    color:#10c9c3;
+a.nav-link.active {
+    color: #10c9c3;
 }
 
-a.nav-link:hover{
-    color:#10c9c3;
+a.nav-link:hover {
+    color: #10c9c3;
 }
 
-.progress, .progress-bar{
-    height:3px;
-}
-
-
-.progress-bar{
-    background: #10c9c3 ;
+.progress,
+.progress-bar {
+    height: 3px;
 }
 
 
-
-.bgblue{
-    background: #10c9c3 ;
-    color:#fff;
+.progress-bar {
+    background: #10c9c3;
 }
 
-.bluetxt{
-    font-size:13px;
+
+
+.bgblue {
+    background: #10c9c3;
+    color: #fff;
+}
+
+.bluetxt {
+    font-size: 13px;
+}
+
+#work img {
+    cursor: pointer;
+}
+
+.survolReal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.9);
+    color: #fff;
+
+}
+
+.realisation:hover .survolReal {
+    display: flex;
+    cursor: pointer;
+
+
+}
+
+.more {
+    font-size: 12px;
+    color: #8e8e8e
 }
