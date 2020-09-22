@@ -7,7 +7,7 @@
     <title>Ma première intégration avec Bootstrap</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap"
         rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -305,9 +305,8 @@
     <section id="testimonials">
         <div class="container position-relative">
             <div class=" row align-items-center justify-content-center" style="min-height:500px">
-                <div id="carouselExampleIndicators" class="carousel slide col-12 col-xl-8 text-center data-ride="
-                    carousel">
-
+                <div id="carouselExampleIndicators" class="carousel slide col-12 col-xl-8 text-center data-ride='carousel'">
+                    
                     <div class="carousel-inner text-center ">
                         <div class="carousel-item active">
                             <p class="testimonial">"Outstanding job and exceeded all expectations. It was a pleasure
@@ -332,16 +331,16 @@
 
                     </div>
 
-
+                    <ol class="carousel-indicators mb-5">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
 
                 </div>
             </div>
 
-            <ol class="carousel-indicators mb-5">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
+          
         </div>
 
     </section>
